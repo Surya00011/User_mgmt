@@ -1,0 +1,54 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment variables
+.env
+.env.*
+
+# Flask instance folder
+instance/
+
+# SQLite database (if any)
+*.sqlite3
+
+# PostgreSQL dump files
+*.sql
+*.dump
+
+# PyCharm IDE
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Mac/Linux system files
+.DS_Store
+*.swp
+*.swo
+
+# Coverage / testing
+.coverage
+htmlcov/
+*.pytest_cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Temporary files
+*.tmp
+*.bak
+*.backup

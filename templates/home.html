@@ -109,6 +109,9 @@ body {
         <a href="{{ url_for('addUser') }}" class="btn btn-primary px-4">Add User</a>
     </div>
     <div class="table-responsive">
+        {% if not users:%}
+            <p class="text-center">No users found.</p>
+        {% else %}
         <table class="table table-bordered table-striped text-center align-middle">
             <thead>
                 <tr>
@@ -142,6 +145,7 @@ body {
                 {% endfor %}
             </tbody>
         </table>
+        {% endif %}
     </div>
 </div>
 </div>
